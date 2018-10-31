@@ -1,0 +1,23 @@
+{
+	"name": "zealbyte/editor-bundle",
+	"type": "symfony-bundle",
+	"description": "ZealByte editor bundle for Symfony 4",
+	"keywords": [],
+	"homepage": "https://zealbyte.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dustin Martella",
+			"email": "dustin.martella@zealbyte.com"
+		}
+	],
+	"require": {
+		"php": ">=7.1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"ZealByte\\Bundle\\EditorBundle\\": "lib"
+		}
+	},
+	"minimum-stability": "dev"
+}
